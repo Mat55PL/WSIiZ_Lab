@@ -1,20 +1,78 @@
-﻿// Lab01.cpp : Ten plik zawiera funkcję „main”. W nim rozpoczyna się i kończy wykonywanie programu.
-//
-
+﻿
 #include <iostream>
+
+using namespace std;
 
 int main()
 {
-    std::cout << "Hello World!\n";
+
+    //zad 1
+    int NrAlbumu = 65561;
+    cout << "Nr Albumu to: " << NrAlbumu << endl;
+    //zad 2
+    int a;
+    cout << "Podaj dowoln liczbe calkowita: ";
+    cin >> a;
+    if (a % 2 == 0)
+        cout << "Liczba " << a << " jest parzysta" << endl;
+    else
+        cout << "Liczba " << a << " jest nieparzysta" << endl;
+    //zad3
+    float b, c;
+    cout << "Podaj liczbe nr.1: ";
+    cin >> b;
+    cout << "Podaj liczbe nr.2: ";
+    cin >> c;
+    if (b > c)
+        cout << "Liczba " << b << " jest wieksza" << endl;
+    else if (b == c)
+        cout << "Liczby sa takie same" << endl;
+    else
+        cout << "Liczba " << c << " jest wieksza" << endl;
+    //zad4
+    float d, e, f, g;
+    cout << "Podaj 4. liczby do obliczenia sredniej arytmetycznej" << endl;
+    cin >> d;
+    cin >> e;
+    cin >> f;
+    cin >> g;
+    cout << "Srednia arytmetyczna wynosi: " << (d + e + f + g) / 4 << endl;
+    
+    //zad 5
+    float i, j;
+    char znak;
+    float wynik;
+    cout << "Podaj liczbe nr.1: ";
+    cin >> i;
+    cout << "Podaj liczbe nr.2: ";
+    cin >> j;
+    cout << "Znaki dzialan:\n '+' -> dodawanie\n  '-' -> odejmowanie\n '*' -> mnozenie\n '/' -> dzielenie\n 's' -> obliczanie sredniej arytmetycznej" << endl;
+    cout << "Podaj znak: ";
+    cin >> znak;
+    switch (znak) {
+    case '+':
+        wynik = i + j;
+        break;
+    case '-':
+        wynik = i - j;
+        break;
+    case '*':
+        wynik = i * j;
+        break;
+    case '/':
+    {
+        if (i == 0 || j == 0)
+            cout << "Nie dzielimy przez 0!" << endl;
+        else
+            wynik = i / j;
+    }
+    break;
+    case 's':
+        wynik = (i + j) / 2;
+        break;
+    default:
+        cout << "Nie rozpoznano znaku" << endl;
+    }
+    cout << "Wynik dzialania to: " << wynik << endl;
 }
 
-// Uruchomienie programu: Ctrl + F5 lub menu Debugowanie > Uruchom bez debugowania
-// Debugowanie programu: F5 lub menu Debugowanie > Rozpocznij debugowanie
-
-// Porady dotyczące rozpoczynania pracy:
-//   1. Użyj okna Eksploratora rozwiązań, aby dodać pliki i zarządzać nimi
-//   2. Użyj okna programu Team Explorer, aby nawiązać połączenie z kontrolą źródła
-//   3. Użyj okna Dane wyjściowe, aby sprawdzić dane wyjściowe kompilacji i inne komunikaty
-//   4. Użyj okna Lista błędów, aby zobaczyć błędy
-//   5. Wybierz pozycję Projekt > Dodaj nowy element, aby utworzyć nowe pliki kodu, lub wybierz pozycję Projekt > Dodaj istniejący element, aby dodać istniejące pliku kodu do projektu
-//   6. Aby w przyszłości ponownie otworzyć ten projekt, przejdź do pozycji Plik > Otwórz > Projekt i wybierz plik sln
