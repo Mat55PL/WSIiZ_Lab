@@ -11,7 +11,7 @@ int main()
     cout << "Nr Albumu to: " << NrAlbumu << endl;
     //zad 2
     int a;
-    cout << "Podaj dowoln liczbe calkowita: ";
+    cout << "Podaj dowolna liczbe calkowita: ";
     cin >> a;
     if (a % 2 == 0)
         cout << "Liczba " << a << " jest parzysta" << endl;
