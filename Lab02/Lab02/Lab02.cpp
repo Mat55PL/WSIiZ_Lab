@@ -6,7 +6,7 @@ using namespace std;
 int main()
 {
    //zad 1
-	/*
+
 	float a, b;
 	cout << "Podaj a: ";
 	cin >> a;
@@ -24,7 +24,7 @@ int main()
 		cout << "x = " << -b / a;
 	}
 	
-	zad 2+3
+	//zad 2+3
 	float a, b, c, delta;
 	cout << "Podaj a: ";
 	cin >> a;
@@ -159,7 +159,7 @@ int main()
 		cout << "Dostaniesz sie na uczelnie" << endl;
 		cout << "Miłego dnia i pięknej pogody" << endl;
 	}
-	//zad 7*/
+	//zad 7
 	bool bonus, discount;
 	cout << "Czy dostales premie(0 nie/ 1 tak): ";
 	cin >> bonus;
