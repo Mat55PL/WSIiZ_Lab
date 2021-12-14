@@ -1,0 +1,6 @@
+﻿  Lab06.cpp
+G:\WSIiZ\laboratorium\WSIiZ_Lab\Lab06\Lab06\Lab06\Lab06.cpp(37,9): warning C4551: wywołaniu funkcji brakuje listy argumentów
+  functions.cpp
+G:\WSIiZ\laboratorium\WSIiZ_Lab\Lab06\Lab06\Lab06\functions.cpp(129,19): warning C4244: "inicjowanie": konwersja z "__int64" do "int", możliwa utrata danych
+  Generowanie kodu...
+  Lab06.vcxproj -> G:\WSIiZ\laboratorium\WSIiZ_Lab\Lab06\Lab06\Debug\Lab06.exe
