@@ -1,0 +1,6 @@
+﻿  Lab08.cpp
+G:\WSIiZ\laboratorium\WSIiZ_Lab\Lab08\Lab08\Lab08.cpp(44,15): warning C4244: "argument": konwersja z "time_t" do "unsigned int", możliwa utrata danych
+G:\WSIiZ\laboratorium\WSIiZ_Lab\Lab08\Lab08\Lab08.cpp(129): warning C4172: zwracanie adresu lokalnej zmiennej lub tymczasowej: p
+G:\WSIiZ\laboratorium\WSIiZ_Lab\Lab08\Lab08\Lab08.cpp(175): warning C4715: "min”: niewszystkie ścieżki kodu zwracają wartość
+G:\WSIiZ\laboratorium\WSIiZ_Lab\Lab08\Lab08\Lab08.cpp(185): warning C4715: "minw”: niewszystkie ścieżki kodu zwracają wartość
+  Lab08.vcxproj -> G:\WSIiZ\laboratorium\WSIiZ_Lab\Lab08\Debug\Lab08.exe
